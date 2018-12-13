@@ -31,7 +31,8 @@
     {
      document.writeln(Studentobj[i].name+" "+Studentobj[i].sum);
     }
-    Studentobj.sort()(function(a,b){return b.avg-a.avg;});    
+    Studentobj.sort()(function(a,b){return b.avg-a.avg;});
+    document.writeln("sorted according to average");    
     for(var i=0;i<Studentobj.length;i++)
     {
      document.writeln(Studentobj[i].name+" "+Studentobj[i].avg);
@@ -42,6 +43,7 @@
 			            else 
                                        return 1;
                                    });
+    document.writeln("sorted according to name");
     for(var i=0;i<Studentobj.length;i++)
     {
      document.writeln(Studentobj[i].name);
